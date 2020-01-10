@@ -1,6 +1,6 @@
 Name:           maven-archiver
 Version:        2.5
-Release:        8%{?dist}
+Release:        9%{?dist}
 Epoch:          0
 Summary:        Maven Archiver
 License:        ASL 2.0
@@ -52,6 +52,9 @@ rm -fr src/test/java/org/apache/maven/archiver/*.java
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.5-9
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:2.5-8
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
